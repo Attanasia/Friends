@@ -1,0 +1,102 @@
+2025-11-08 14:21:41,020 - INFO - Successfully loaded 50 rows from friends_data.csv
+2025-11-08 14:21:41,022 - INFO - Finished attempting to load CSV file.
+2025-11-08 14:29:41,064 - INFO - DataFrame loaded successfully.
+2025-11-08 14:30:01,380 - INFO - 🧹 Cleaned data (duplicates removed, missing filled).
+2025-11-08 16:16:41,872 - INFO - CSV loaded successfully.
+2025-11-08 16:16:54,560 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-08 16:16:54,561 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-08 16:16:55,289 - INFO -  * Restarting with stat
+2025-11-08 16:16:55,830 - INFO - CSV loaded successfully.
+2025-11-08 16:16:55,850 - WARNING -  * Debugger is active!
+2025-11-08 16:16:55,861 - INFO -  * Debugger PIN: 100-734-052
+2025-11-08 16:28:04,189 - INFO - 127.0.0.1 - - [08/Nov/2025 16:28:04] "GET /characters?page=1&per_page=5 HTTP/1.1" 200 -
+2025-11-08 16:28:04,233 - INFO - 127.0.0.1 - - [08/Nov/2025 16:28:04] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-11-08 16:28:34,470 - INFO - 127.0.0.1 - - [08/Nov/2025 16:28:34] "GET /characters?page=2&per_page=10 HTTP/1.1" 200 -
+2025-11-08 18:27:05,594 - INFO - 127.0.0.1 - - [08/Nov/2025 18:27:05] "GET /characters/search?first_name=Phoebe HTTP/1.1" 200 -
+2025-11-08 18:27:52,098 - ERROR - Error in /characters/search endpoint: Cannot mask with non-boolean array containing NA / NaN values
+2025-11-08 18:27:52,099 - INFO - 127.0.0.1 - - [08/Nov/2025 18:27:52] "[35m[1mGET /characters/search?last_name=Geller HTTP/1.1[0m" 500 -
+2025-11-08 18:28:34,940 - INFO - 127.0.0.1 - - [08/Nov/2025 18:28:34] "GET /characters/search?first_name=Rachel&last_name=Green HTTP/1.1" 200 -
+2025-11-08 18:28:52,365 - ERROR - Error in /characters/search endpoint: Cannot mask with non-boolean array containing NA / NaN values
+2025-11-08 18:28:52,369 - INFO - 127.0.0.1 - - [08/Nov/2025 18:28:52] "[35m[1mGET /characters/search?last_name=Geller HTTP/1.1[0m" 500 -
+2025-11-08 18:29:36,266 - ERROR - Error in /characters/search endpoint: Cannot mask with non-boolean array containing NA / NaN values
+2025-11-08 18:29:36,271 - INFO - 127.0.0.1 - - [08/Nov/2025 18:29:36] "[35m[1mGET /characters/search?last_name=Phoebe HTTP/1.1[0m" 500 -
+2025-11-08 18:29:45,595 - ERROR - Error in /characters/search endpoint: Cannot mask with non-boolean array containing NA / NaN values
+2025-11-08 18:29:45,595 - INFO - 127.0.0.1 - - [08/Nov/2025 18:29:45] "[35m[1mGET /characters/search?last_name=Geller HTTP/1.1[0m" 500 -
+2025-11-08 18:30:13,206 - ERROR - Error in /characters/search endpoint: Cannot mask with non-boolean array containing NA / NaN values
+2025-11-08 18:30:13,208 - INFO - 127.0.0.1 - - [08/Nov/2025 18:30:13] "[35m[1mGET /characters/search?last_name=Bunch HTTP/1.1[0m" 500 -
+2025-11-08 18:30:18,900 - ERROR - Error in /characters/search endpoint: Cannot mask with non-boolean array containing NA / NaN values
+2025-11-08 18:30:18,902 - INFO - 127.0.0.1 - - [08/Nov/2025 18:30:18] "[35m[1mGET /characters/search?last_name=Bunch HTTP/1.1[0m" 500 -
+2025-11-08 18:33:34,245 - INFO -  * Detected change in '/Users/atta/Desktop/Friends/app.py', reloading
+2025-11-08 18:33:34,337 - INFO -  * Restarting with stat
+2025-11-08 18:33:34,937 - INFO - CSV loaded successfully.
+2025-11-08 18:33:34,960 - WARNING -  * Debugger is active!
+2025-11-08 18:33:34,971 - INFO -  * Debugger PIN: 100-734-052
+2025-11-08 18:35:07,024 - INFO - CSV loaded successfully.
+2025-11-08 18:35:07,063 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-08 18:35:07,063 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-08 18:35:07,064 - INFO -  * Restarting with stat
+2025-11-08 18:35:07,332 - INFO - CSV loaded successfully.
+2025-11-08 18:35:07,346 - WARNING -  * Debugger is active!
+2025-11-08 18:35:07,354 - INFO -  * Debugger PIN: 100-734-052
+2025-11-08 18:35:16,803 - INFO - Character 3 updated successfully.
+2025-11-08 18:35:16,808 - INFO - 127.0.0.1 - - [08/Nov/2025 18:35:16] "PUT /characters/3 HTTP/1.1" 200 -
+2025-11-08 18:38:52,007 - INFO -  * Detected change in '/Users/atta/Desktop/Friends/app.py', reloading
+2025-11-08 18:38:52,078 - INFO -  * Restarting with stat
+2025-11-08 18:38:52,493 - INFO - CSV loaded successfully.
+2025-11-08 18:38:52,512 - WARNING -  * Debugger is active!
+2025-11-08 18:38:52,519 - INFO -  * Debugger PIN: 100-734-052
+2025-11-08 18:38:59,085 - INFO - CSV loaded successfully.
+2025-11-08 18:38:59,105 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-08 18:38:59,105 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-08 18:38:59,106 - INFO -  * Restarting with stat
+2025-11-08 18:38:59,372 - INFO - CSV loaded successfully.
+2025-11-08 18:38:59,385 - WARNING -  * Debugger is active!
+2025-11-08 18:38:59,391 - INFO -  * Debugger PIN: 100-734-052
+2025-11-08 18:39:33,622 - INFO - Character 10 deleted successfully.
+2025-11-08 18:39:33,623 - INFO - 127.0.0.1 - - [08/Nov/2025 18:39:33] "DELETE /characters/10 HTTP/1.1" 200 -
+2025-11-08 18:47:38,884 - INFO -  * Detected change in '/Users/atta/Desktop/Friends/app.py', reloading
+2025-11-08 18:47:38,959 - INFO -  * Restarting with stat
+2025-11-08 18:48:30,027 - INFO - CSV loaded successfully.
+2025-11-08 18:48:30,053 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-08 18:48:30,054 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-08 18:48:30,054 - INFO -  * Restarting with stat
+2025-11-08 18:48:30,321 - INFO - CSV loaded successfully.
+2025-11-08 18:48:30,334 - WARNING -  * Debugger is active!
+2025-11-08 18:48:30,342 - INFO -  * Debugger PIN: 100-734-052
+2025-11-08 18:48:42,187 - INFO - 127.0.0.1 - - [08/Nov/2025 18:48:42] "GET / HTTP/1.1" 200 -
+2025-11-08 20:18:58,804 - INFO -  * Detected change in '/Users/atta/Desktop/Friends/app.py', reloading
+2025-11-08 20:18:58,892 - INFO -  * Restarting with stat
+2025-11-08 20:18:59,391 - INFO - CSV loaded successfully.
+2025-11-08 20:18:59,411 - WARNING -  * Debugger is active!
+2025-11-08 20:18:59,418 - INFO -  * Debugger PIN: 100-734-052
+2025-11-08 20:19:23,956 - INFO - CSV loaded successfully.
+2025-11-08 20:19:23,982 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-08 20:19:23,982 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-08 20:19:23,983 - INFO -  * Restarting with stat
+2025-11-08 20:19:24,245 - INFO - CSV loaded successfully.
+2025-11-08 20:19:24,259 - WARNING -  * Debugger is active!
+2025-11-08 20:19:24,265 - INFO -  * Debugger PIN: 100-734-052
+2025-11-08 20:21:24,356 - INFO - 127.0.0.1 - - [08/Nov/2025 20:21:24] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-11-08 20:21:24,362 - INFO - 127.0.0.1 - - [08/Nov/2025 20:21:24] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-11-08 20:21:55,637 - INFO - 127.0.0.1 - - [08/Nov/2025 20:21:55] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-11-08 20:21:55,637 - INFO - 127.0.0.1 - - [08/Nov/2025 20:21:55] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-11-08 20:22:41,619 - INFO - 127.0.0.1 - - [08/Nov/2025 20:22:41] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=TExhaCQer5ElMgqAutYs HTTP/1.1" 200 -
+2025-11-08 20:24:02,106 - INFO -  * Detected change in '/Users/atta/Desktop/Friends/app.py', reloading
+2025-11-08 20:24:02,166 - INFO -  * Restarting with stat
+2025-11-08 20:24:02,677 - INFO - CSV loaded successfully.
+2025-11-08 20:24:02,700 - WARNING -  * Debugger is active!
+2025-11-08 20:24:02,708 - INFO -  * Debugger PIN: 100-734-052
+2025-11-08 20:24:12,691 - INFO - CSV loaded successfully.
+2025-11-08 20:24:12,712 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-08 20:24:12,713 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-08 20:24:12,713 - INFO -  * Restarting with stat
+2025-11-08 20:24:12,985 - INFO - CSV loaded successfully.
+2025-11-08 20:24:13,000 - WARNING -  * Debugger is active!
+2025-11-08 20:24:13,007 - INFO -  * Debugger PIN: 100-734-052
+2025-11-08 20:24:49,415 - INFO - 127.0.0.1 - - [08/Nov/2025 20:24:49] "GET / HTTP/1.1" 200 -
